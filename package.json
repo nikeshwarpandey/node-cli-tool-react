@@ -1,5 +1,5 @@
 {
-  "name": "node-cli-tool",
+  "name": "node-cli-tool-react",
   "version": "1.0.0",
   "description": "A command-line interface tool to automate the setup of a React + TypeScript project using Vite.",
   "main": "bin/cli.js",
@@ -34,6 +34,10 @@
       "^.+\\.(ts|tsx)$": "ts-jest"
     }
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/nikeshwarpandey/node-cli-tool-react.git"
+},
   "author": "",
   "license": "ISC"
 }
