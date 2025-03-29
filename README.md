@@ -19,12 +19,12 @@ To install the CLI tool, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/node-cli-tool.git
+   git clone https://github.com/nikeshwarpandey/node-cli-tool-react.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd node-cli-tool
+   cd node-cli-tool-react
    ```
 
 3. Install dependencies:
