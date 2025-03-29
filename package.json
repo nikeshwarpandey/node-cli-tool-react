@@ -1,6 +1,6 @@
 {
   "name": "node-cli-tool-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line interface tool to automate the setup of a React + TypeScript project using Vite.",
   "main": "bin/cli.js",
   "scripts": {
