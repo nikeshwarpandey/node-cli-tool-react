@@ -1,0 +1,39 @@
+{
+  "name": "node-cli-tool",
+  "version": "1.0.0",
+  "description": "A command-line interface tool to automate the setup of a React + TypeScript project using Vite.",
+  "main": "bin/cli.js",
+  "scripts": {
+    "setup": "node bin/cli.js",
+    "test": "jest"
+  },
+  "bin": {
+    "cli-tool": "./bin/cli.js"
+  },
+  "dependencies": {
+    "inquirer": "^12.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^4.5.0",
+    "vite": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jest": "^27.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "ts",
+      "tsx"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC"
+}
